@@ -2,7 +2,7 @@
 ### Start
 ```go run main.go```
 ### Functions
-| Metho | Path | Function
+| Method | Path | Function
 | ------ | ------ | ------ |
 | GET | /album?id=1 | Show details of a specific album (using the id provided in the query string) |
 | POST | /likes | Add a new like for a specific album (using the id provided in the request body) |
