@@ -2,6 +2,7 @@ package models
 
 import (
 	"github.com/mediocregopher/radix.v2/pool"
+	"github.com/mediocregopher/radix.v2/redis"
 	"log"
 	"errors"
 	"strconv"
