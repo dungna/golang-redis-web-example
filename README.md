@@ -1,14 +1,22 @@
 # golang-redis-web-example
 ### INSTALL DRIVER
-```go get github.com/mediocregopher/radix.v2```
+```
+go get github.com/mediocregopher/radix.v2
+```
+
 ### ADD DATA FOR REDIS
-```127.0.0.1:6379>HMSET album:1 title "Electric Ladyland" artist "Jimi Hendrix" price 4.95 likes 8
+```
+127.0.0.1:6379>HMSET album:1 title "Electric Ladyland" artist "Jimi Hendrix" price 4.95 likes 8
 127.0.0.1:6379>HMSET album:2 title "Back in Black" artist "AC/DC" price 5.95 likes 3
 127.0.0.1:6379>HMSET album:3 title "Rumours" artist "Fleetwood Mac" price 7.95 likes 12
-127.0.0.1:6379>HMSET album:4 title "Nevermind" artist "Nirvana" price 5.95 likes 8```
+127.0.0.1:6379>HMSET album:4 title "Nevermind" artist "Nirvana" price 5.95 likes 8
+```
 
 ### START
-```go run main.go```
+```
+go run main.go
+```
+
 ### Functions
 | Method | Path | Function
 | ------ | ------ | ------ |
